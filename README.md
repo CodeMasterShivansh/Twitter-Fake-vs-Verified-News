@@ -9,10 +9,13 @@ It compares the performance of traditional models (Logistic Regression, SVM) and
 The dataset used is from FakeNewsNet (PolitiFact subset)
 , a publicly available repository developed by Arizona State University.
 
-Label	Samples	Avg Title Length	Source File
-Fake News	2,345	12.4	politifact_fake.csv
-Real News	2,450	13.1	politifact_real.csv
+| **Label** | **Samples** | **Avg Title Length** | **Source File**       |
+| --------- | ----------- | -------------------- | --------------------- |
+| Fake News | 2,345       | 12.4                 | `politifact_fake.csv` |
+| Real News | 2,450       | 13.1                 | `politifact_real.csv` |
+
 ⚙️ Methodology
+
 Data Preprocessing
 
 •	Text cleaning and normalization
@@ -51,6 +54,7 @@ Hybrid Approach Formula
 📈 The hybrid model achieved the highest accuracy of 95.2%.
 
 🧩 Project Structure
+
 Twitter-Fake-vs-Verified-News/
 │
 ├── data/
