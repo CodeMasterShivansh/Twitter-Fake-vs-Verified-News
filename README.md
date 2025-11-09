@@ -1,10 +1,10 @@
-📰 Twitter Fake vs Verified News Detection
-🧠 Overview
+**Twitter Fake vs Verified News Detection**
+**Overview**
 
 This project is part of an academic research study focused on detecting fake vs verified news on Twitter using machine learning and transformer-based models.
 It compares the performance of traditional models (Logistic Regression, SVM) and pre-trained transformer models (BERT, RoBERTa), followed by the development of a hybrid SVM + BERT ensemble for improved accuracy.
 
-📚 Dataset
+**Dataset**
 
 The dataset used is from FakeNewsNet (PolitiFact subset)
 , a publicly available repository developed by Arizona State University.
@@ -77,17 +77,12 @@ Twitter-Fake-vs-Verified-News/
 
 🧠 Technologies Used
 
-Python
-
-Scikit-learn
-
-Hugging Face Transformers
-
-TensorFlow / PyTorch
-
-Matplotlib
-
-Pandas, NumPy
+•	Python
+•	Scikit-learn
+•	Hugging Face Transformers
+•	TensorFlow / PyTorch
+•	Matplotlib
+•	Pandas, NumPy
 
 📜 Citation
 If you use this work, please cite:
