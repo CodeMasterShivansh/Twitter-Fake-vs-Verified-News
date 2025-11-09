@@ -36,39 +36,7 @@ RoBERTa (base)
 Hybrid SVM + BERT Ensemble
 
 Hybrid Approach Formula
-𝑃
-ℎ
-𝑦
-𝑏
-𝑟
-𝑖
-𝑑
-=
-0.5
-×
-𝑃
-𝑆
-𝑉
-𝑀
-+
-0.5
-×
-𝑃
-𝐵
-𝐸
-𝑅
-𝑇
-P
-hybrid
-	​
-
-=0.5×P
-SVM
-	​
-
-+0.5×P
-BERT
-	​
+P_hybrid = 0.5 × P_SVM + 0.5 × P_BERT​
 
 | **Model**                    | **Accuracy (%)** | **Precision** | **Recall** | **F1-Score** |
 | ---------------------------- | ---------------- | ------------- | ---------- | ------------ |
