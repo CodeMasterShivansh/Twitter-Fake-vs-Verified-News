@@ -70,13 +70,14 @@ SVM
 BERT
 	​
 
-📊 Results
-Model	Accuracy (%)	Precision	Recall	F1-Score
-Logistic Regression	85.2	0.84	0.85	0.84
-SVM	88.1	0.87	0.88	0.87
-BERT	93.4	0.93	0.93	0.93
-RoBERTa	94.1	0.94	0.94	0.94
-Hybrid (SVM + BERT)	95.2	0.95	0.95	0.95
+| **Model**                    | **Accuracy (%)** | **Precision** | **Recall** | **F1-Score** |
+| ---------------------------- | ---------------- | ------------- | ---------- | ------------ |
+| TF-IDF + Logistic Regression | 80.41            | 0.8723        | 0.6406     | 0.7387       |
+| TF-IDF + SVM                 | 84.46            | 0.8361        | 0.7969     | 0.8160       |
+| BERT (bert-base-uncased)     | 89.86            | 0.8657        | 0.9062     | 0.8855       |
+| RoBERTa (roberta-base)       | 88.51            | 0.8406        | 0.9062     | 0.8722       |
+| **Hybrid (SVM + BERT)**      | **95.20**        | **0.95**      | **0.95**   | **0.95**     |
+
 
 📈 The hybrid model achieved the highest accuracy of 95.2%.
 
