@@ -14,19 +14,29 @@ Fake News	2,345	12.4	politifact_fake.csv
 Real News	2,450	13.1	politifact_real.csv
 ⚙️ Methodology
 Data Preprocessing
+
 •	Text cleaning and normalization
+
 •	Tokenization using Hugging Face tokenizer
+
 •	TF-IDF feature extraction for traditional models
+
 •	Embedding generation for transformer models
 
 Models Used
+
 •	Logistic Regression
+
 •	Support Vector Machine (SVM)
+
 •	BERT (base-uncased)
+
 •	RoBERTa (base)
+
 •	Hybrid SVM + BERT Ensemble
 
 Hybrid Approach Formula
+
                   P_hybrid = 0.5 × P_SVM + 0.5 × P_BERT​
 
 | **Model**                    | **Accuracy (%)** | **Precision** | **Recall** | **F1-Score** |
