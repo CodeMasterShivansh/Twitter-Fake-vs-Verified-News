@@ -14,7 +14,7 @@ The dataset used is from FakeNewsNet (PolitiFact subset)
 | Fake News | 2,345       | 12.4                 | `politifact_fake.csv` |
 | Real News | 2,450       | 13.1                 | `politifact_real.csv` |
 
-⚙️ Methodology
+**Methodology**
 
 Data Preprocessing
 
@@ -53,7 +53,7 @@ Hybrid Approach Formula
 
 📈 The hybrid model achieved the highest accuracy of 95.2%.
 
-🧩 Project Structure
+**Project Structure**
 
 Twitter-Fake-vs-Verified-News/
 │
@@ -75,23 +75,24 @@ Twitter-Fake-vs-Verified-News/
 │
 └── README.md
 
-🧠 Technologies Used
+**Technologies Used**
 
 •	Python
+
 •	Scikit-learn
+
 •	Hugging Face Transformers
+
 •	TensorFlow / PyTorch
+
 •	Matplotlib
+
 •	Pandas, NumPy
 
+
 📜 Citation
+
 If you use this work, please cite:
 
 S. Vosoughi, D. Roy, and S. Aral, “The spread of true and false news online,” Science, vol. 359, no. 6380, pp. 1146–1151, 2018.
 and other references as listed in the accompanying paper.
-
-✍️ Author
-[Your Name]
-B.Tech – Data Science
-Department of Computer Science
-[Your College Name]
