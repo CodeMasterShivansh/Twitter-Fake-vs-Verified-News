@@ -58,40 +58,11 @@ Hybrid Approach Formula
 Twitter-Fake-vs-Verified-News/
 
 │
-
 ├── data/
-
 │   ├── politifact_fake.csv
-
 │   ├── politifact_real.csv
-
 │
-
-├── notebooks/
-
-│   ├── 01_data_preprocessing.ipynb
-
-│   ├── 02_model_training.ipynb
-
-│   ├── 03_evaluation.ipynb
-
-│
-
-├── results/
-
-│   ├── model_comparison.png
-
-│   ├── confusion_matrix.png
-
-│
-
-├── report/
-
-│   ├── Twitter_Fake_vs_Verified_News_Research_Paper.pdf
-
-│
-
-└── README.md
+├──
 
 
 **Technologies Used**
